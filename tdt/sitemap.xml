@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>/tdt/authors/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/authors/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tdt"
+                href="/tdt/authors/"
+                />
+  </url>
+  
+  <url>
+    <loc>/tdt/categories/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tdt"
+                href="/tdt/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>/tdt/publication_types/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/publication_types/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tdt"
+                href="/tdt/publication_types/"
+                />
+  </url>
+  
+  <url>
+    <loc>/tdt/tags/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tdt"
+                href="/tdt/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>/tdt/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tdt"
+                href="/tdt/"
+                />
+  </url>
+  
+</urlset>
