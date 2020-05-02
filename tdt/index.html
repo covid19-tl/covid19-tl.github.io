@@ -687,9 +687,43 @@
 <div class="row">
   
     <div class="col-lg-12">
-      <h1>Confirmed cases: How does Timor compare?</h1>
-      <p>Timor has less confirmed cases per million than Indonesia or the Philippines</p>
-      <iframe src="https://ourworldindata.org/grapher/total-confirmed-cases-of-covid-19-per-million-people?year=2020-04-27&country=TLS&region=Asia" style="width: 100%; height: 600px; border: 0px none;"></iframe>
+      <h1>Oinsá Timor-Leste kompara ho nasaun seluk?</h1>
+      <p>Timor-Leste nia kazu konfirmadu por milliaun menus se kompara ho Indonesia no Filipina.</p>
+      <script type="text/javascript">
+  google.charts.load('current', {
+    'packages':['geochart'],
+    // Note: you will need to get a mapsApiKey for your project.
+    // See: https://developers.google.com/chart/interactive/docs/basic_load_libs#load-settings
+    'mapsApiKey': 'AIzaSyD-9tSrke72PouQMnMX-a7eZSW0jkFMBWY'
+  });
+  google.charts.setOnLoadCallback(drawRegionsMap);
+
+  function drawRegionsMap() {
+    var data = google.visualization.arrayToDataTable([
+        ['Country', 'Kazu konfirmadu por milliaun'],
+        ["Cambodia", 7.297099803570447],
+        ["Indonesia", 33.25489757244768],
+        ["Laos", 2.61148426319583],
+        ["Malaysia", 179.81833898648824],
+        ["Myanmar", 2.6833404294822363],
+        ["Philippines", 70.97027739778265],
+        ["Thailand", 42.09170381113874],
+        ["TL", 18.203303596214322],
+        ["Vietnam", 2.7738229967863823],
+    ]);
+
+    var options = {
+        region: '035',
+        chartArea: {width: '95%', height: '80%', top: 5},
+        colorAxis: {colors: ['red']}
+    };
+
+    var chart = new google.visualization.GeoChart(document.getElementById('compare-map'));
+
+    chart.draw(data, options);
+  }
+</script>
+<div id="compare-map"></div>
 
     </div>
   
@@ -739,15 +773,38 @@
 <div class="row">
   
     <div class="col-lg-12">
-      <h1>Testing</h1>
-      <p>As of April 28, 2020, Timor-Leste has made 597 tests. That&rsquo;s more tests per 1,000 people than Indonesia, but less that the Philippines or Vietnam.</p>
-      <iframe title="Tests per 1,000 people" aria-label="Bar Chart" id="datawrapper-chart-YgCnu" src="//datawrapper.dwcdn.net/YgCnu/3/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="222"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}})}();
+      <h1>Teste</h1>
+      <p>Timor-Leste halo ona teste 671. Timor-Leste halo teste por 1,000 barak liu fali Indonesia, maibé menus se kompara ho Filipina no Vietnam.</p>
+      <script>
+google.charts.load('current', {packages: ['corechart', 'bar']});
+google.charts.setOnLoadCallback(drawBarColors);
+
+function drawBarColors() {
+      var data = google.visualization.arrayToDataTable([
+        ['Nasaun', 'Teste por 1,000', { role: "style" } ],
+        ['Timor-Leste', 0.51, 'green'],
+        ['Indonesia', 0.23, ''],
+        ['Filipina', 0.69, ''],
+        ['Vietnam', 2.20, ''],
+        ['Australia', 20.34, ''],
+      ]);
+
+      var options = {
+        title: 'Teste por 1,000',
+        chartArea: {width: '50%'},
+        colors: ['green'],
+        legend: { position: "none" },
+      };
+      var chart = new google.visualization.BarChart(document.getElementById('testing-div'));
+      chart.draw(data, options);
+    }
 </script>
-<h4 id="from-the-597-tests-conducted">From the 597 tests conducted:</h4>
+<div id="testing-div"></div>
+<h4 id="husi-teste-hamutuk-671">Husi teste hamutuk 671:</h4>
 <ul>
-<li>24 came back positive</li>
-<li>367 came back negative</li>
-<li>206 are pending</li>
+<li>Positivu 24 (kazu konfirmadu)</li>
+<li>Negativu 478</li>
+<li>Hein rezultadu 169</li>
 </ul>
 
     </div>
@@ -800,16 +857,16 @@
     <div class="col-lg-12">
       <h1>Resources</h1>
       
-      <p>Stay informed about the covid-19 epidemic through:</p>
+      <p>Rekursus hodi hetan informasaun ne&rsquo;ebé lo&rsquo;os husi fontes ne&rsquo;ebe kredível:</p>
 <ul>
 <li>
-<a href="https://www.facebook.com/MinisteriodaSaudeTL/" target="_blank" rel="noopener">The Ministry of Health Facebook page</a></li>
+<a href="https://www.facebook.com/MinisteriodaSaudeTL/" target="_blank" rel="noopener">Pajina FB Ministério Saúde Timor-Leste</a></li>
 <li>
-<a href="https://wa.me/67075560000?text=hello" target="_blank" rel="noopener">The official WhatsApp chatbot by the Ministry of Health</a></li>
+<a href="https://wa.me/67075560000?text=hello" target="_blank" rel="noopener">Chatbot WhatsApp husi Ministério Saúde Timor-Leste</a></li>
 <li>
-<a href="https://www.facebook.com/WHOTL/" target="_blank" rel="noopener">The WHO in Timor-Leste Facebook page</a></li>
+<a href="https://www.facebook.com/WHOTL/" target="_blank" rel="noopener">Pajina FB Organizasaun Mundial Saude (lian Ingles)</a></li>
 <li>
-<a href="ourworldindata.org/coronavirus?country=TLS&#43;IDN&#43;AUS&#43;VNM">OurWorldInData Coronavirus page</a></li>
+<a href="ourworldindata.org/coronavirus?country=TLS&#43;IDN&#43;AUS&#43;VNM">Pajina OurWorldInData kona-ba coronavirus (lian Ingles)</a></li>
 </ul>
 
     </div>
