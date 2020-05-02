@@ -3,72 +3,72 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/authors/</loc>
+    <loc>/en/authors/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="tdt"
-                href="/tdt/authors/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
                 href="/authors/"
                 />
-  </url>
-  
-  <url>
-    <loc>/categories/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="tdt"
-                href="/tdt/categories/"
-                />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
+                href="/en/authors/"
+                />
+  </url>
+  
+  <url>
+    <loc>/en/categories/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="tdt"
                 href="/categories/"
                 />
-  </url>
-  
-  <url>
-    <loc>/publication_types/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="tdt"
-                href="/tdt/publication_types/"
-                />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
+                href="/en/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>/en/publication_types/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="tdt"
                 href="/publication_types/"
                 />
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="tdt"
-                href="/tdt/tags/"
-                />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
+                href="/en/publication_types/"
+                />
+  </url>
+  
+  <url>
+    <loc>/en/tags/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="tdt"
                 href="/tags/"
                 />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/tags/"
+                />
   </url>
   
   <url>
-    <loc>/</loc>
+    <loc>/en/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="tdt"
-                href="/tdt/"
+                href="/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/"
+                href="/en/"
                 />
   </url>
   

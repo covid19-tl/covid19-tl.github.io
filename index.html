@@ -1,4 +1,4 @@
-<!DOCTYPE html><html lang="en-us" >
+<!DOCTYPE html><html lang="tdt" >
 
 <head>
 
@@ -26,9 +26,9 @@
   <meta name="description" content="">
 
   
-  <link rel="alternate" hreflang="tdt" href="/tdt/">
+  <link rel="alternate" hreflang="en" href="/en/">
   
-  <link rel="alternate" hreflang="en-us" href="/">
+  <link rel="alternate" hreflang="tdt" href="/">
 
   
 
@@ -238,7 +238,7 @@
   <meta property="og:url" content="/">
   <meta property="og:title" content="Timor-Leste Covid-19 Dashboard">
   <meta property="og:description" content=""><meta property="og:image" content="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png">
-  <meta property="twitter:image" content="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="en-us">
+  <meta property="twitter:image" content="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="tdt">
   
     
   
@@ -363,7 +363,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/#cases" data-target="#cases"><span>Cases</span></a>
+          <a class="nav-link " href="/#cases" data-target="#cases"><span>Kazu</span></a>
         </li>
 
         
@@ -392,7 +392,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/#compare_cases" data-target="#compare_cases"><span>Compare cases</span></a>
+          <a class="nav-link " href="/#compare_cases" data-target="#compare_cases"><span>Kompara kazu</span></a>
         </li>
 
         
@@ -421,7 +421,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/#testing" data-target="#testing"><span>Testing</span></a>
+          <a class="nav-link " href="/#testing" data-target="#testing"><span>Teste</span></a>
         </li>
 
         
@@ -450,7 +450,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/#resources" data-target="#resources"><span>Resources</span></a>
+          <a class="nav-link " href="/#resources" data-target="#resources"><span>Rekursus</span></a>
         </li>
 
         
@@ -470,15 +470,15 @@
       
       <li class="nav-item dropdown i18n-dropdown">
         <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true">
-          <i class="fas fa-globe mr-1" aria-hidden="true"></i><span class="d-none d-lg-inline">English</span>
+          <i class="fas fa-globe mr-1" aria-hidden="true"></i><span class="d-none d-lg-inline">Tetun</span>
         </a>
         <div class="dropdown-menu">
           <div class="dropdown-item dropdown-item-active">
-            <span>English</span>
+            <span>Tetun</span>
           </div>
           
-          <a class="dropdown-item" href="/tdt/" data-target="/tdt/">
-            <span>Tetun</span>
+          <a class="dropdown-item" href="/en/" data-target="/en/">
+            <span>English</span>
           </a>
           
         </div>
@@ -558,8 +558,8 @@
 <div class="row">
   
     <div class="col-lg-12">
-      <h1>Total and daily confirmed COVID-19 cases</h1>
-      <p>Timor-Leste has 24 confirmed cases, 22 of which are in Dili, and 2 in Liquica.</p>
+      <h1>Kazu konfirmadu total no foun iha Timor-Leste</h1>
+      <p>Timor-Leste iha kazu konfirmadu total 24: 22 iha Dili, no 2 iha Liquica.</p>
       <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
 <script type="text/javascript">
 
@@ -574,7 +574,7 @@
   // draws it.
   function drawChart() {
       var data = google.visualization.arrayToDataTable([
-            ['Day', 'Total Cases', 'New Cases'],
+            ['Day', 'Kazu total', 'Kazu foun'],
             ["Mar 22, 2020",1,0],
             ["Mar 23, 2020",1,0],
             ["Mar 24, 2020",1,0],
@@ -687,8 +687,8 @@
 <div class="row">
   
     <div class="col-lg-12">
-      <h1>How does Timor compare?</h1>
-      <p>Timor has less confirmed cases per million than Indonesia or the Philippines</p>
+      <h1>Oinsá Timor-Leste kompara ho nasaun seluk?</h1>
+      <p>Timor-Leste nia kazu konfirmadu por milliaun menus se kompara ho Indonesia no Filipina.</p>
       <script type="text/javascript">
   google.charts.load('current', {
     'packages':['geochart'],
@@ -700,7 +700,7 @@
 
   function drawRegionsMap() {
     var data = google.visualization.arrayToDataTable([
-        ['Country', 'Confirmed cases per million'],
+        ['Country', 'Kazu konfirmadu por milliaun'],
         ["Cambodia", 7.297099803570447],
         ["Indonesia", 33.25489757244768],
         ["Laos", 2.61148426319583],
@@ -773,24 +773,24 @@
 <div class="row">
   
     <div class="col-lg-12">
-      <h1>Testing</h1>
-      <p>As of May 1, 2020, Timor-Leste has made 671 tests. That&rsquo;s more tests per 1,000 people than Indonesia, but less that the Philippines or Vietnam.</p>
+      <h1>Teste</h1>
+      <p>Timor-Leste halo ona teste 671. Timor-Leste halo teste por 1,000 barak liu fali Indonesia, maibé menus se kompara ho Filipina no Vietnam.</p>
       <script>
 google.charts.load('current', {packages: ['corechart', 'bar']});
 google.charts.setOnLoadCallback(drawBarColors);
 
 function drawBarColors() {
       var data = google.visualization.arrayToDataTable([
-        ['Country', 'Tests per 1,000 people', { role: "style" } ],
+        ['Nasaun', 'Teste por 1,000', { role: "style" } ],
         ['Timor-Leste', 0.51, 'green'],
         ['Indonesia', 0.23, ''],
-        ['Philippines', 0.69, ''],
+        ['Filipina', 0.69, ''],
         ['Vietnam', 2.20, ''],
         ['Australia', 20.34, ''],
       ]);
 
       var options = {
-        title: 'Tests per 1,000 people',
+        title: 'Teste por 1,000',
         chartArea: {width: '50%'},
         colors: ['green'],
         legend: { position: "none" },
@@ -800,11 +800,11 @@ function drawBarColors() {
     }
 </script>
 <div id="testing-div"></div>
-<h4 id="from-the-671-tests-conducted">From the 671 tests conducted:</h4>
+<h4 id="husi-teste-hamutuk-671">Husi teste hamutuk 671:</h4>
 <ul>
-<li>24 came back positive</li>
-<li>478 came back negative</li>
-<li>169 are pending</li>
+<li>Positivu 24 (kazu konfirmadu)</li>
+<li>Negativu 478</li>
+<li>Hein rezultadu 169</li>
 </ul>
 
     </div>
@@ -857,16 +857,16 @@ function drawBarColors() {
     <div class="col-lg-12">
       <h1>Resources</h1>
       
-      <p>Stay informed about the covid-19 epidemic through:</p>
+      <p>Rekursus hodi hetan informasaun ne&rsquo;ebé lo&rsquo;os husi fontes ne&rsquo;ebe kredível:</p>
 <ul>
 <li>
-<a href="https://www.facebook.com/MinisteriodaSaudeTL/" target="_blank" rel="noopener">The Ministry of Health Facebook page</a></li>
+<a href="https://www.facebook.com/MinisteriodaSaudeTL/" target="_blank" rel="noopener">Pajina FB Ministério Saúde Timor-Leste</a></li>
 <li>
-<a href="https://wa.me/67075560000?text=hello" target="_blank" rel="noopener">The official WhatsApp chatbot by the Ministry of Health</a></li>
+<a href="https://wa.me/67075560000?text=hello" target="_blank" rel="noopener">Chatbot WhatsApp husi Ministério Saúde Timor-Leste</a></li>
 <li>
-<a href="https://www.facebook.com/WHOTL/" target="_blank" rel="noopener">The WHO in Timor-Leste Facebook page</a></li>
+<a href="https://www.facebook.com/WHOTL/" target="_blank" rel="noopener">Pajina FB Organizasaun Mundial Saude (lian Ingles)</a></li>
 <li>
-<a href="ourworldindata.org/coronavirus?country=TLS&#43;IDN&#43;AUS&#43;VNM">OurWorldInData Coronavirus page</a></li>
+<a href="ourworldindata.org/coronavirus?country=TLS&#43;IDN&#43;AUS&#43;VNM">Pajina OurWorldInData kona-ba coronavirus (lian Ingles)</a></li>
 </ul>
 
     </div>
