@@ -31,6 +31,20 @@
   </url>
   
   <url>
+    <loc>/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tdt"
+                href="/"
+                />
+  </url>
+  
+  <url>
     <loc>/publication_types/</loc>
     <xhtml:link
                 rel="alternate"
@@ -55,20 +69,6 @@
                 rel="alternate"
                 hreflang="tdt"
                 href="/tags/"
-                />
-  </url>
-  
-  <url>
-    <loc>/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tdt"
-                href="/"
                 />
   </url>
   
