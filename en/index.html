@@ -692,97 +692,6 @@
   
   
 
-  <section id="compare_cases" class="home-section wg-blank   " style="padding: 20px 0 20px 0;" >
-    <div class="container">
-      
-
-
-<div class="row">
-  
-    <div class="col-lg-12">
-      <h1>How does Timor compare?</h1>
-      <p>Timor has less confirmed cases per million than Indonesia or the Philippines</p>
-      <script type="text/javascript">
-  google.charts.load('current', {
-    'packages':['geochart'],
-    // Note: you will need to get a mapsApiKey for your project.
-    // See: https://developers.google.com/chart/interactive/docs/basic_load_libs#load-settings
-    'mapsApiKey': 'AIzaSyD-9tSrke72PouQMnMX-a7eZSW0jkFMBWY'
-  });
-  google.charts.setOnLoadCallback(drawRegionsMap);
-
-  function drawRegionsMap() {
-    var data = google.visualization.arrayToDataTable([
-        ['Country', 'Confirmed cases per million'],
-        ["Cambodia", 7.297099803570447],
-        ["Indonesia", 33.25489757244768],
-        ["Laos", 2.61148426319583],
-        ["Malaysia", 179.81833898648824],
-        ["Myanmar", 2.6833404294822363],
-        ["Philippines", 70.97027739778265],
-        ["Thailand", 42.09170381113874],
-        ["TL", 18.203303596214322],
-        ["Vietnam", 2.7738229967863823],
-    ]);
-
-    var options = {
-        region: '035',
-        chartArea: {width: '95%', height: '80%', top: 5},
-        colorAxis: {colors: ['red']}
-    };
-
-    var chart = new google.visualization.GeoChart(document.getElementById('compare-map'));
-
-    chart.draw(data, options);
-  }
-</script>
-<div id="compare-map"></div>
-<style>
-#compare-map {
-    max-width: 800px;
-}
-</style>
-
-    </div>
-  
-</div>
-
-    </div>
-  </section>
-
-  
-  
-  
-
-  
-
-  
-
-  
-
-  
-    
-    
-  
-
-  
-
-  
-  
-
-  
-  
-  
-
-  
-  
-  
-  
-  
-
-  
-  
-
   <section id="testing" class="home-section wg-blank   " style="padding: 20px 0 20px 0;" >
     <div class="container">
       
@@ -867,6 +776,97 @@ function drawBarColors() {
     max-width: 700px;
     margin-left: auto;
     margin-right: auto;
+}
+</style>
+
+    </div>
+  
+</div>
+
+    </div>
+  </section>
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  <section id="compare_cases" class="home-section wg-blank   " style="padding: 20px 0 20px 0;" >
+    <div class="container">
+      
+
+
+<div class="row">
+  
+    <div class="col-lg-12">
+      <h1>How does Timor compare?</h1>
+      <p>Timor has less confirmed cases per million than Indonesia or the Philippines</p>
+      <script type="text/javascript">
+  google.charts.load('current', {
+    'packages':['geochart'],
+    // Note: you will need to get a mapsApiKey for your project.
+    // See: https://developers.google.com/chart/interactive/docs/basic_load_libs#load-settings
+    'mapsApiKey': 'AIzaSyD-9tSrke72PouQMnMX-a7eZSW0jkFMBWY'
+  });
+  google.charts.setOnLoadCallback(drawRegionsMap);
+
+  function drawRegionsMap() {
+    var data = google.visualization.arrayToDataTable([
+        ['Country', 'Confirmed cases per million'],
+        ["Cambodia", 7.297099803570447],
+        ["Indonesia", 33.25489757244768],
+        ["Laos", 2.61148426319583],
+        ["Malaysia", 179.81833898648824],
+        ["Myanmar", 2.6833404294822363],
+        ["Philippines", 70.97027739778265],
+        ["Thailand", 42.09170381113874],
+        ["TL", 18.203303596214322],
+        ["Vietnam", 2.7738229967863823],
+    ]);
+
+    var options = {
+        region: '035',
+        chartArea: {width: '95%', height: '80%', top: 5},
+        colorAxis: {colors: ['red']}
+    };
+
+    var chart = new google.visualization.GeoChart(document.getElementById('compare-map'));
+
+    chart.draw(data, options);
+  }
+</script>
+<div id="compare-map"></div>
+<style>
+#compare-map {
+    max-width: 800px;
 }
 </style>
 
